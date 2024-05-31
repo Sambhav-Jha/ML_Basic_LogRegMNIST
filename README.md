@@ -21,7 +21,8 @@ The MNIST dataset consists of 60,000 training images and 10,000 test images. Eac
 Model<br>
 Logistic Regression is a linear model for binary classification. In this project, we extend it for multi-class classification using the one-vs-rest (OvR) strategy. The model predicts the probability of each class and assigns the class with the highest probability.
 
-Dependencies<br>
+#### Dependencies<br>
+
 Python 3.x
 NumPy
 Pandas
@@ -29,7 +30,7 @@ Scikit-learn
 Matplotlib
 
 
-Installation<br>
+#### Installation<br>
 
 Clone the repository:<br>
 
@@ -48,20 +49,20 @@ Install the required dependencies:<br>
 >bash
 >pip install -r requirements.txt
 
-Usage<br>
+#### Usage<br>
 Run the script to train the model and evaluate its performance:
 
-bash
-Copy code
-python mnist_logistic_regression.py
+>bash
+>python mnist_logistic_regression.py
+
 The script will load the MNIST dataset, train the Logistic Regression model, and output evaluation metrics and visualizations.
 
-Results
+#### Results<br>
 The model achieves high accuracy in classifying handwritten digits. Key results include:
 
-Accuracy: Approximately 91%
+#### Accuracy: Approximately 96%<br>
 Confusion Matrix: Visual representation of classification performance.
 Example visualization of correctly and incorrectly classified digits.
 
-Contributing
+#### Contributing<br>
 Contributions are welcome! Please fork this repository and submit a pull request with your improvements.
