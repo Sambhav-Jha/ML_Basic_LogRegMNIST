@@ -12,40 +12,43 @@ Results<br>
 Contributing</p>
 
 
-Introduction
+#### Introduction<br>
 The MNIST dataset is a benchmark dataset in machine learning, containing 70,000 images of handwritten digits (0-9). This project implements a Logistic Regression model to classify these digits with high accuracy.
 
-Dataset
+Dataset<br>
 The MNIST dataset consists of 60,000 training images and 10,000 test images. Each image is a 28x28 pixel grayscale image, flattened into a 784-dimensional vector.
 
-Model
+Model<br>
 Logistic Regression is a linear model for binary classification. In this project, we extend it for multi-class classification using the one-vs-rest (OvR) strategy. The model predicts the probability of each class and assigns the class with the highest probability.
 
-Dependencies
+Dependencies<br>
 Python 3.x
 NumPy
 Pandas
 Scikit-learn
 Matplotlib
-Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/mnist-logistic-regression.git
-cd mnist-logistic-regression
-Create and activate a virtual environment (optional but recommended):
 
-bash
-Copy code
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-Install the required dependencies:
+Installation<br>
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
+Clone the repository:<br>
+
+>bash
+>git clone https://github.com/your-username/mnist-logistic-regression.git
+>cd mnist-logistic-regression
+
+Create and activate a virtual environment (optional but recommended):<br>
+
+>bash
+>python -m venv env
+>source env/bin/activate  # On Windows: env\Scripts\activate
+
+Install the required dependencies:<br>
+
+>bash
+>pip install -r requirements.txt
+
+Usage<br>
 Run the script to train the model and evaluate its performance:
 
 bash
