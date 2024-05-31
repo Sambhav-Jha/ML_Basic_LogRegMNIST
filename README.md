@@ -94,4 +94,4 @@ Contributions are welcome! Please fork this repository, make your changes, and s
   - Enhancing data preprocessing steps
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](#license) file for details.
