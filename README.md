@@ -1,15 +1,15 @@
 ### MNIST Logistic Regression
 This repository contains an implementation of a Logistic Regression model to classify handwritten digits from the MNIST dataset. The model is built using Python with libraries such as NumPy, Pandas, Scikit-learn, and Matplotlib.
 
-Table of Contents
-Introduction
-Dataset
-Model
-Dependencies
-Installation
-Usage
-Results
-Contributing
+<p>Table of Contents<br>
+Introduction<br>
+Dataset<br>
+Model<br>
+Dependencies<br>
+Installation<br>
+Usage<br>
+Results<br>
+Contributing</p>
 
 
 Introduction
